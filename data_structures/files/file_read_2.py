@@ -14,8 +14,10 @@ for line in content:
     # list1 = line.split()
 
     line_count = line_count + 1
-    
-    print(list1)
+    line_value = float(line[-6:])
+    value = value + line_value
 
-print("Done")
+avg = value/line_count
+
+print("Average spam confidence: " + str(round(avg, 12)))
 
