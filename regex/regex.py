@@ -12,7 +12,6 @@ for line in handler:
     for num in nums:
         sum = sum + int(num)
 
-
 print(sum)
 # print(sum(nums))
 
