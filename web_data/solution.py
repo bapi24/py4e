@@ -20,4 +20,15 @@ for tag in tags:
     # print(tag.get('href', None))
     atags.append(tag.get('href', None))
 
-print(atags)
+# print(atags)
+
+#solution
+count = input("Enter count: \t")
+position = input("Enter position: \t")
+
+for i in 
+html2 = urlib.request.urlopen(atags[2]).read()
+
+tags = soup('a')
+atags = []
+
